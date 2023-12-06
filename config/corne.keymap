@@ -134,8 +134,8 @@
 
         mouse {
             bindings = <
-&trans  &trans  &mwh SCROLL_UP  &trans    &trans    &trans    &trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans
-&trans  &trans  &mwh SCROLL_DOWN  &mkp MB2  &mkp MB1  &to 0     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
+&trans  &trans  &mwh SCROLL_DOWN  &trans    &trans    &trans    &trans  &trans          &mmv MOVE_UP    &trans           &trans  &trans
+&trans  &trans  &mwh SCROLL_UP  &mkp MB2  &mkp MB1  &to 0     &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
 &trans  &trans  &trans    &mkp MB4  &mkp MB3  &trans    &trans  &trans          &trans          &trans           &trans  &trans
                           &trans    &trans    &trans    &trans  &trans          &trans
             >;
