@@ -9,3 +9,15 @@ manifest:
       import: app/west.yml
   self:
     path: config
+
+# manifest:
+#   remotes:
+#     - name: urob
+#       url-base: https://github.com/urob
+#   projects:
+#     - name: zmk
+#       remote: urob
+#       revision: main
+#       import: app/west.yml
+#   self:
+#     path: config
