@@ -95,10 +95,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp LEFT_PARENTHESIS  &kp RPAR  &kp N9        &kp N0        &trans
-&trans  &trans  &trans  &trans  &trans  &to 4     &trans  &kp LBRC              &kp RBRC  &kp NUMBER_7  &kp NUMBER_8  &trans
-&trans  &trans  &trans  &trans  &trans  &to 3     &trans  &kp LEFT_BRACKET      &kp RBKT  &trans        &trans        &trans
-                        &trans  &trans  &trans    &trans  &trans                &kp RALT
+&trans  &kp N1  &kp N2  &kp N3  &kp N4  &kp N5    &kp N6  &kp N7  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp N0  &trans
+&trans  &trans  &trans  &trans  &trans  &to 4     &trans  &kp N8  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp N9  &trans
+&trans  &trans  &trans  &trans  &trans  &to 3     &trans  &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &kp RALT
             >;
 
             label = "num";
@@ -113,8 +113,8 @@
 
             bindings = <
 &trans  &kp EXCL       &kp AT        &kp UP    &kp DLLR       &kp PRCNT      &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR           &kp RPAR  &trans
-&trans  &kp PAGE_UP    &kp LEFT      &kp DOWN  &kp RIGHT      &tildetab      &kp MINUS  &kp EQUAL  &kp LBRC         &kp RBRC           &kp BSLH  &kp TILDE
-&trans  &kp PAGE_DOWN  &indent_left  &kp HASH  &indent_right  &kp LG(TAB)    &kp UNDER  &kp PLUS   &kp LBKT         &kp RIGHT_BRACKET  &kp PIPE  &trans
+&trans  &kp PAGE_UP    &kp LEFT      &kp DOWN  &kp RIGHT      &tildetab      &kp MINUS  &kp PLUS   &kp LBRC         &kp RBRC           &kp BSLH  &kp TILDE
+&trans  &kp PAGE_DOWN  &indent_left  &kp HASH  &indent_right  &kp LG(TAB)    &kp UNDER  &kp EQUAL  &kp LBKT         &kp RIGHT_BRACKET  &kp PIPE  &trans
                                      &trans    &trans         &kp GRAVE      &trans     &trans     &kp RALT
             >;
 
@@ -123,10 +123,10 @@
 
         admin {
             bindings = <
-&out OUT_TOG  &rgb_ug RGB_BRD  &kp N7  &trans  &kp N9  &trans    &kp F1  &kp F2  &kp F3  &kp F4  &bt BT_CLR    &bt BT_NXT
-&trans        &kp K_MUTE       &trans  &trans  &trans  &to 0     &kp F5  &trans  &trans  &trans  &bt BT_SEL 0  &bt BT_SEL 1
-&trans        &trans           &kp J   &trans  &kp L   &trans    &kp F6  &kp F7  &kp F8  &trans  &bt BT_SEL 2  &bt BT_SEL 4
-                                       &trans  &trans  &trans    &trans  &trans  &trans
+&out OUT_TOG  &rgb_ug RGB_BRD  &trans  &trans  &trans  &trans    &kp F1  &kp F2   &kp F3   &kp F4   &bt BT_CLR    &bt BT_NXT
+&trans        &kp K_MUTE       &trans  &trans  &trans  &to 0     &kp F5  &kp F6   &kp F7   &kp F8   &bt BT_SEL 0  &bt BT_SEL 1
+&trans        &trans           &trans  &trans  &trans  &trans    &kp F9  &kp F10  &kp F11  &kp F12  &bt BT_SEL 2  &bt BT_SEL 3
+                                       &trans  &trans  &trans    &trans  &trans   &trans
             >;
 
             label = "ms-fn";
