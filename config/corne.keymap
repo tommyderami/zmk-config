@@ -112,10 +112,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp EXCL       &kp AT        &kp UP    &kp DLLR       &kp PRCNT      &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR           &kp RPAR  &trans
-&trans  &kp PAGE_UP    &kp LEFT      &kp DOWN  &kp RIGHT      &tildetab      &kp MINUS  &kp PLUS   &kp LBRC         &kp RBRC           &kp BSLH  &kp TILDE
-&trans  &kp PAGE_DOWN  &indent_left  &kp HASH  &indent_right  &kp LG(TAB)    &kp UNDER  &kp EQUAL  &kp LBKT         &kp RIGHT_BRACKET  &kp PIPE  &trans
-                                     &trans    &trans         &kp GRAVE      &trans     &trans     &kp RALT
+&kp ESCAPE  &kp EXCL       &kp AT        &kp UP    &kp DLLR       &kp PRCNT      &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR           &kp RPAR  &trans
+&trans      &kp PAGE_UP    &kp LEFT      &kp DOWN  &kp RIGHT      &tildetab      &kp MINUS  &kp PLUS   &kp LBRC         &kp RBRC           &kp BSLH  &kp TILDE
+&trans      &kp PAGE_DOWN  &indent_left  &kp HASH  &indent_right  &kp LG(TAB)    &kp UNDER  &kp EQUAL  &kp LBKT         &kp RIGHT_BRACKET  &kp PIPE  &trans
+                                         &trans    &trans         &kp GRAVE      &trans     &trans     &kp RALT
             >;
 
             label = "symbol";
@@ -134,10 +134,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &mkp LCLK  &msc MOVE_DOWN  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &to 0     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans  &trans
+&trans  &trans  &trans  &mkp LCLK  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &to 0     &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans     &trans  &trans    &trans  &trans  &trans
             >;
 
             label = "mouse";
