@@ -7,8 +7,8 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/outputs.h>
+#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -134,10 +134,10 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans  &mkp LCLK  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans  &to 0     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans     &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans     &trans  &trans    &trans  &trans  &trans
+&kp F         &kp RIGHT  &kp NUMBER_3  &kp NUMBER_6  &mmv MOVE_LEFT   &mkp MB1        &trans  &trans  &trans  &trans  &trans  &trans
+&kp UP_ARROW  &kp DOWN   &kp NUMBER_2  &kp NUMBER_5  &mmv MOVE_DOWN   &mmv MOVE_UP    &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE    &kp LEFT   &kp NUMBER_1  &kp NUMBER_4  &mmv MOVE_RIGHT  &mkp MB2        &trans  &trans  &trans  &trans  &trans  &trans
+                                       &kp G         &trans           &to 0           &trans  &trans  &trans
             >;
 
             label = "mouse";
