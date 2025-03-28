@@ -45,15 +45,6 @@
         };
     };
 
-    behaviors {
-        Alfie_Click: Alfie_Click {
-            compatible = "zmk,behavior-tap-dance";
-            label = "ALFIE_CLICK";
-            #binding-cells = <0>;
-            bindings = <&alfred>, <&mkp MB1>, <&mkp MB2>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
